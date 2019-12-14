@@ -7,36 +7,36 @@
 <h4 align="center"> Dark and Light themes for Visual Studio Code</h4>
 
 
-Theme based on eppz! [https://github.com/eppz/VSCode.Extension.eppz_Code](https://github.com/eppz/VSCode.Extension.eppz_Code). This new theme provide a light theme and one color aproach to the IDE.
+**Teppz** is based on the awesome [eppz!](https://github.com/eppz/VSCode.Extension.eppz_Code). For that reason **Teppz** is a new version of a carefully designed theme where colors do have meanings.
 
-Languages tested thanks to Night Owl theme demos.
+This new theme provides a lighter theme, some changes to the dark and one color approach to the IDE.
 
-<p align="center">Dark Theme with C#</p>
+Languages tested thanks to [Night Owl](https://github.com/sdras/night-owl-vscode-theme) theme [demos](https://github.com/sdras/night-owl-vscode-theme/tree/master/demo).
+
 
 ![C# Dark](https://github.com/ofrades/teppz/raw/master/images/csharpdark.png)
 
-<p align="center">Dark Theme with React</p>
+<p align="center">Dark Theme with C#</p>
 
 ![React Dark](https://github.com/ofrades/teppz/raw/master/images/reactdark.png)
 
-<p align="center">Dark Theme with Sidebar and Terminal open</p>
+<p align="center">Dark Theme with React</p>
 
 ![Sidebar Terminal Dark](https://github.com/ofrades/teppz/raw/master/images/wsideandterminaldark.png)
 
-<p align="center">Light Theme with C#</p>
+<p align="center">Dark Theme with Sidebar and Terminal open</p>
 
 ![C# Light](https://github.com/ofrades/teppz/raw/master/images/csharplight.png)
 
-
-<p align="center">Light Theme with React</p>
+<p align="center">Light Theme with C#</p>
 
 ![React Light](https://github.com/ofrades/teppz/raw/master/images/reactlight.png)
 
-
-<p align="center">Light Theme with Sidebar and Terminal open</p>
+<p align="center">Light Theme with React</p>
 
 ![Sidebar Terminal Light](https://github.com/ofrades/teppz/raw/master/images/wsideandterminallight.png)
 
+<p align="center">Light Theme with Sidebar and Terminal open</p>
 
 ### Personal Settings:
 
