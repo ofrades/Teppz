@@ -1,6 +1,6 @@
 # Teppz
 
-(https://github.com/ofrades/teppz/raw/master/tennisball.png)
+![Logo](https://github.com/ofrades/teppz/raw/master/tennisball.png)
 
 Dark and Light themes for Visual Studio Code.
 
