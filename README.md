@@ -53,6 +53,6 @@ Languages tested thanks to Night Owl theme demos.
 I am also using [Bracket Pair Colorizer](https://github.com/CoenraadS/BracketPair), a really cool extension that highlights matching brackets and [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme).
 
 ### Future
-If you see something wrong or you want some new feature, please feel free to [file an issue](https://github.com/ofrades/eppz/issues)!
+If you see something wrong or you want some new feature, please feel free to [file an issue](https://github.com/ofrades/Teppz/issues)!
 
 This is my personal theme, so it will be updated everytime I see something that can be improved. Feel free to do the same, asking me to do some changes or doing them yourself.
