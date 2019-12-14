@@ -7,4 +7,5 @@ Theme based on eppz! [https://github.com/eppz/VSCode.Extension.eppz_Code](https:
 Languages tested thanks to Night Owl theme demos.
 
 ![First Screen Dark](https://github.com/ofrades/teppz/raw/master/images/dark.png)
+
 ![First Screen Light](https://github.com/ofrades/teppz/raw/master/images/light.png)
