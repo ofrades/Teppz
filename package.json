@@ -4,7 +4,11 @@
 	"version": "2.0.0",
 	"description": "Teppz is a version of a carefully designed theme where colors have meanings.",
 	"publisher": "ofrades",
-	"icon": "tennisball.svg",
+	"icon": "tennisball.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ofrades/teppz"
+	},
 	"categories": [
 		"Themes"
 	],
@@ -24,5 +28,10 @@
 				"path": "./themes/default/eppz-code-light.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "c0262d99-d95c-4bae-9419-7c1cca64ee4f",
+		"publisherDisplayName": "ofrades",
+		"publisherId": "ac348c2f-32e9-441f-8edf-9e6add2e9287"
 	}
 }

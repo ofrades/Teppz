@@ -3,6 +3,8 @@
 	"type": "light",
 	"include": "eppz-code-light-root.json",
 	"colors": {
+		"contrastActiveBorder": "#aaa",
+		"pickerGroup.border": "#aaa",
 		"foreground": "#222",
 		"sideBar.foreground": "#222",
 		"list.activeSelectionBackground": "#222",
@@ -61,7 +63,6 @@
 		"panel.border": "#ccc",
 		"titleBar.activeBackground": "#ccc",
 		"titleBar.inactiveBackground": "#ccc",
-		"pickerGroup.border": "#ccc",
 		"terminal.background": "#ccc",
 		"walkThrough.embeddedEditorBackground": "#ccc",
 		"editorCursor.foreground": "#62bb47",

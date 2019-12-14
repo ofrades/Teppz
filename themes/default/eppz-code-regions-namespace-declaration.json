@@ -314,7 +314,7 @@
 				"regions.namespace.declaration keyword.other.this"
 			],
 			"settings": {
-				"foreground": "#7e958b",
+				"foreground": "#5ED268",
 				"fontStyle": "italic"
 			}
 		},

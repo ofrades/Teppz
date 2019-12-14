@@ -3,7 +3,10 @@
 	"type": "dark",
 	"include": "eppz-code-dark-root.json",
 	"colors": {
+		"contrastActiveBorder": "#111",
 		"foreground": "#ccc",
+		"sideBar.foreground": "#ccc",
+		"list.activeSelectionBackground": "#ccc",
 		"widget.shadow": "#222",
 		"dropdown.background": "#222",
 		"dropdown.border": "#222",
@@ -59,7 +62,6 @@
 		"panel.border": "#222",
 		"titleBar.activeBackground": "#222",
 		"titleBar.inactiveBackground": "#222",
-		"pickerGroup.border": "#222",
 		"terminal.background": "#222",
 		"walkThrough.embeddedEditorBackground": "#222",
 		"editorCursor.foreground": "#62bb47",
@@ -84,5 +86,81 @@
 		"menubar.selectionForeground": "#388E3C",
 		"editor.findMatchBorder": "#388E3C",
 		"selection.background": "#388E3C40"
-	}
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#575B65",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#5ED2BE"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#DAC779"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"punctuation.accessor",
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#CEA47F",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "HTML Tag names",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.other.html",
+				"meta.tag.other.js",
+				"meta.tag.other.tsx",
+				"entity.name.tag.tsx",
+				"entity.name.tag.js",
+				"entity.name.tag",
+				"meta.tag.js",
+				"meta.tag.tsx",
+				"meta.tag.html"
+			],
+			"settings": {
+				"foreground": "#5D5050",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "ID Attribute Name in HTML",
+			"scope": "entity.other.attribute-name.id.html",
+			"settings": {
+				"foreground": "#6073D1"
+			}
+		},
+		{
+			"name": "HTML Punctuation Definition Tag",
+			"scope": "punctuation.definition.tag.html",
+			"settings": {
+				"foreground": "#5ED268"
+			}
+		},
+		{
+			"name": "HTML Doctype",
+			"scope": "meta.tag.sgml.doctype.html",
+			"settings": {
+				"foreground": "#DABA7E",
+				"fontStyle": "italic"
+			}
+		}
+	]
 }
