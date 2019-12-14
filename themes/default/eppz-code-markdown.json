@@ -1,0 +1,160 @@
+{
+	"name": "eppz! Code (markdown)",
+	"include": "eppz-code-json.json",
+	"settings":
+	[
+		{
+			"name": "Markup (underline)",
+			"scope": "markup.underline",
+			"settings": { "fontStyle": "underline" }
+		},
+		{
+			"name": "Markup (bold)",
+			"scope": "markup.bold",
+			"settings": { "fontStyle": "bold" }
+		},
+		{
+			"name": "Markup (italic)",
+			"scope": "markup.italic",
+			"settings": { "fontStyle": "italic" }
+		},
+		{
+			"name": "Markup (heading)",
+			"scope": [ "markup.heading" ],
+			"settings": { "foreground": "#4da586" }
+		},
+		{
+			"name": "Markup (heading punctuation)",
+			"scope": [ "markup.heading punctuation" ],
+			"settings": { "foreground": "#405651" }
+		},
+		{
+			"name": "Markup (inline)",
+			"scope": [ "markup.inline" ],
+			"settings": { "foreground": "#b6776b" }
+		},
+		{
+			"name": "Markup (inline punctuation)",
+			"scope":
+			[
+				"markup.inline punctuation",
+													"markup.list markup.inline punctuation",
+										"markup.list markup.list markup.inline punctuation",
+							"markup.list markup.list markup.list markup.inline punctuation",
+				"markup.list markup.list markup.list markup.list markup.inline punctuation"
+
+			],
+			"settings": { "foreground": "#6a6656" }
+		},
+		{
+			"name": "Markup (list)",
+			"scope": [ "markup.list" ],
+			"settings": { "foreground": "#d9c679" }
+		},
+		{
+			"name": "Markup (list italic)",
+			"scope": [ "markup.list markup.italic" ],
+			"settings": { "foreground": "#9d936a" }
+		},
+		{
+			"name": "Markup (list punctuation)",
+			"scope":
+			[
+				"markup.list punctuation",
+				"markup.list beginning.punctuation"
+			],
+			"settings": { "foreground": "#6a6656" }
+		},
+		{
+			"name": "Markup (link/image string)",
+			"scope":
+			[
+				"meta.link string",
+				"meta.image string"
+			],
+			"settings": { "foreground": "#60c0d2" }
+		},
+		{
+			"name": "Markup (link/image)",
+			"scope":
+			[
+				"meta.link markup.underline.link",
+				"meta.image markup.underline.link"
+			],
+			"settings": { "foreground": "#588e9a" }
+		},
+		{
+			"name": "Markup (link/image punctuation)",
+			"scope":
+			[
+				"meta.link punctuation",
+													"markup.list meta.link punctuation",
+										"markup.list markup.list meta.link punctuation",
+							"markup.list markup.list markup.list meta.link punctuation",
+				"markup.list markup.list markup.list markup.list meta.link punctuation",
+				"meta.image punctuation",
+													"markup.list meta.image punctuation",
+										"markup.list markup.list meta.image punctuation",
+							"markup.list markup.list markup.list meta.image punctuation",
+				"markup.list markup.list markup.list markup.list meta.image punctuation"				
+			],
+			"settings": { "foreground": "#4a6269" }
+		},		
+		{
+			"name": "Markup (list 1, punctuation)",
+			"scope":
+			[
+				"markup.list markup.list",
+				"punctuation",
+				"beginning.punctuation"
+			],
+			"settings": { "foreground": "#dddcd3" }
+		},
+		{
+			"name": "Markup (list 2)",
+			"scope":
+			[
+				"markup.list markup.list markup.list"
+			],
+			"settings": { "foreground": "#b9b9b5" }
+		},
+		{
+			"name": "Markup (list 3, list punctuation 1)",
+			"scope":
+			[
+				"markup.list markup.list markup.list markup.list",
+				"markup.list markup.list punctuation",
+				"markup.list markup.list beginning.punctuation"
+			],
+			"settings": { "foreground": "#9c9d9d" }
+		},
+		{
+			"name": "Markup (list 4, list punctuation 2)",
+			"scope":
+			[
+				"markup.list markup.list markup.list markup.list markup.list",
+				"markup.list markup.list markup.list punctuation",
+				"markup.list markup.list markup.list beginning.punctuation"
+			],
+			"settings": { "foreground": "#85878a" }
+		},
+		{
+			"name": "Markup (list punctuation 3)",
+			"scope":
+			[
+				"markup.list markup.list markup.list markup.list punctuation",
+				"markup.list markup.list markup.list markup.list beginning.punctuation"
+			],
+			"settings": { "foreground": "#72757b" }
+		},
+		{
+			"name": "Markup (list punctuation 4)",
+			"scope":
+			[
+				"markup.list markup.list markup.list markup.list markup.list punctuation",
+				"markup.list markup.list markup.list markup.list markup.list beginning.punctuation"
+			],
+			"settings": { "foreground": "#63676f" }
+		}
+	]
+}

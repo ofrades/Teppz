@@ -1,0 +1,93 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "C# (extensions)",
+  	"fileTypes": [ "extensions" ],
+	"scopeName": "source.cs.extensions",
+	"patterns":
+	[
+		{ "include": "#using-directive" },
+		{ "include": "#attribute-section" },
+		{ "include": "#namespace-declaration" },
+		{ "include": "#storage-type" }
+	],
+    "repository" :
+    {
+		"using-directive":
+		{
+			"patterns":
+			[
+				{
+					"name": "regions.using.directive.cs.extensions",
+					"match": "(using.+)(;)",
+					"captures":
+					{
+						"1" : { "patterns": [{ "include": "source.cs.extended#using-directive" }]},
+						"2" : { "patterns": [{ "include": "source.cs.extended#punctuation-semicolon" }]}
+					}
+				}
+			]
+		},
+		"attribute-section":
+		{
+			"patterns":
+			[
+				{
+					"name": "regions.attribute.cs.extensions",
+					"match": "(\\[.+\\])",
+					"captures":
+					{
+						"1" : { "patterns": [{ "include": "source.cs.extended#attribute-section" }]}
+					}
+				}
+			]
+		},
+		"namespace-declaration":
+		{
+			"name": "regions.namespace.cs.extensions",
+      		"begin": "(?=\\b(namespace)\\s+)",
+      		"end": "(\\})",
+			"endCaptures": { "0": { "name": "punctuation.curlybrace.close.cs" } },
+      		"patterns":
+			[
+				{
+					"name": "regions.namespace.declaration.cs.extensions",
+					"begin": "(?=\\b(namespace)\\s+)",
+      				"end": "(\\{)",
+					"endCaptures": { "0": { "name": "punctuation.curlybrace.open.cs" } },
+					"patterns":
+					[
+						{
+							"name": "keyword.other.namespace.cs",
+							"match": "\\b(namespace)\\s+"
+						}, 
+						{ "include": "source.cs.official#comment" },
+						{
+							"name": "entity.name.type.namespace.cs",
+							"match": "[_[:alpha:]][_[:alnum:]]*"
+						},  
+						{ "include": "source.cs.official#punctuation-accessor" }
+					]
+				},
+				{ "include": "source.cs.extended#declarations" },
+				{ "include": "#using-directive" },
+				{ "include": "source.cs.official#punctuation-semicolon" }
+			]
+    	},
+		"type":
+		{
+      		"name": "meta.type.cs",
+			"patterns":
+			[
+				{ "include": "source.cs.unity#type-Unity" },
+				{ "include": "source.cs.extended#type" }
+			]
+		},
+		"variable-other-object":
+		{
+			"patterns":
+			[
+				{ "include": "source.cs.unity#type-Unity" }
+			]
+		}
+    }
+}

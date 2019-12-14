@@ -1,0 +1,357 @@
+{
+	"name": "eppz! Code (regions.attribute)",
+	"include": "eppz-code-regions-comment-block-documentation.json",
+	"settings": [
+		{
+			"name": "Source",
+			"scope": [
+				"source regions.attribute"
+			],
+			"settings": {
+				"foreground": "#5c84a6"
+			}
+		},
+		{
+			"name": "Keyword (operator)",
+			"scope": [
+				"regions.attribute keyword.operator"
+			],
+			"settings": {
+				"foreground": "#527596"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"regions.attribute punctuation"
+			],
+			"settings": {
+				"foreground": "#4c6d8d"
+			}
+		},
+		{
+			"name": "Punctuation (parenthesis)",
+			"scope": [
+				"regions.attribute punctuation.parenthesis"
+			],
+			"settings": {
+				"foreground": "#476685"
+			}
+		},
+		{
+			"name": "Punctuation (square bracket)",
+			"scope": [
+				"regions.attribute punctuation.squarebracket"
+			],
+			"settings": {
+				"foreground": "#425f7d"
+			}
+		},
+		{
+			"name": "Punctuation (curly brace)",
+			"scope": [
+				"regions.attribute punctuation.curlybrace"
+			],
+			"settings": {
+				"foreground": "#3e5a78"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"regions.attribute comment",
+				"regions.attribute comment punctuation",
+				"regions.attribute comment punctuation.parenthesis",
+				"regions.attribute comment punctuation.squarebracket",
+				"regions.attribute comment punctuation.curlybrace",
+				"regions.attribute comment keyword",
+				"regions.attribute comment entity",
+				"regions.attribute comment variable",
+				"regions.attribute comment string"
+			],
+			"settings": {
+				"foreground": "#3e4958"
+			}
+		},
+		{
+			"name": "Literals (Constant)",
+			"scope": [
+				"regions.attribute constant"
+			],
+			"settings": {
+				"foreground": "#4263a3"
+			}
+		},
+		{
+			"name": "Literals (null)",
+			"scope": [
+				"regions.attribute constant.language.null"
+			],
+			"settings": {
+				"foreground": "#3c5989"
+			}
+		},
+		{
+			"name": "Literals (Number)",
+			"scope": [
+				"regions.attribute constant.numeric"
+			],
+			"settings": {
+				"foreground": "#426da3"
+			}
+		},
+		{
+			"name": "Literals (String)",
+			"scope": [
+				"regions.attribute string.quoted.double",
+				"regions.attribute string.quoted.double punctuation"
+			],
+			"settings": {
+				"foreground": "#4277a3"
+			}
+		},
+		{
+			"name": "Literals (Escape)",
+			"scope": [
+				"regions.attribute constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#3c6689"
+			}
+		},
+		{
+			"name": "Literals (Char)",
+			"scope": [
+				"regions.attribute string.quoted.single",
+				"regions.attribute string.quoted.single punctuation"
+			],
+			"settings": {
+				"foreground": "#417c99"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"regions.attribute entity.name.function",
+				"regions.attribute entity.name.method",
+				"regions.attribute keyword.other.get",
+				"regions.attribute keyword.other.set",
+				"regions.attribute keyword.other.add",
+				"regions.attribute keyword.other.remove"
+			],
+			"settings": {
+				"foreground": "#386c81"
+			}
+		},
+		{
+			"name": "Functions (UnityEngine)",
+			"scope": [
+				"regions.attribute support.function.UnityEngine"
+			],
+			"settings": {
+				"foreground": "#365f75"
+			}
+		},
+		{
+			"name": "Functions (UnityEditor)",
+			"scope": [
+				"regions.attribute support.function.UnityEditor"
+			],
+			"settings": {
+				"foreground": "#365f75"
+			}
+		},
+		{
+			"name": "Functions (System)",
+			"scope": [
+				"regions.attribute support.function.System"
+			],
+			"settings": {
+				"foreground": "#305064"
+			}
+		},
+		{
+			"name": "Types",
+			"regions.attribute comment": "Including classes, delegates, enums, interfaces, structs.",
+			"scope": [
+				"regions.attribute storage.type",
+				"regions.attribute entity.name.type.type-parameter"
+			],
+			"settings": {
+				"foreground": "#4e6178"
+			}
+		},
+		{
+			"name": "Types (built-in)",
+			"scope": [
+				"regions.attribute keyword.type"
+			],
+			"settings": {
+				"foreground": "#455970"
+			}
+		},
+		{
+			"name": "Types (<>)",
+			"scope": [
+				"regions.attribute punctuation.definition.typeparameters"
+			],
+			"settings": {
+				"foreground": "#3a4e64"
+			}
+		},
+		{
+			"name": "Types (UnityEngine)",
+			"scope": [
+				"regions.attribute support.type.unity.UnityEngine"
+			],
+			"settings": {
+				"foreground": "#455970"
+			}
+		},
+		{
+			"name": "Types (UnityEditor)",
+			"scope": [
+				"regions.attribute support.type.unity.UnityEditor"
+			],
+			"settings": {
+				"foreground": "#455970"
+			}
+		},
+		{
+			"name": "Types (System)",
+			"scope": [
+				"regions.attribute support.type.System"
+			],
+			"settings": {
+				"foreground": "#3a4e64"
+			}
+		},
+		{
+			"name": "Modifiers",
+			"scope": [
+				"regions.attribute storage.modifier"
+			],
+			"settings": {
+				"foreground": "#3a4e64"
+			}
+		},
+		{
+			"name": "Types (declarations)",
+			"regions.attribute comment": "Including classes, delegates, enums, interfaces, structs.",
+			"scope": [
+				"regions.attribute entity.name.type"
+			],
+			"settings": {
+				"foreground": "#576980"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"regions.attribute keyword.control",
+				"regions.attribute keyword.operator.conditional",
+				"regions.attribute keyword.query"
+			],
+			"settings": {
+				"foreground": "#546e81"
+			}
+		},
+		{
+			"name": "Keywords (other)",
+			"scope": [
+				"regions.attribute keyword.other"
+			],
+			"settings": {
+				"foreground": "#496379",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Preprocessor",
+			"scope": [
+				"regions.attribute meta.preprocessor",
+				"regions.attribute meta.preprocessor punctuation",
+				"regions.attribute meta.preprocessor punctuation.parenthesis",
+				"regions.attribute meta.preprocessor punctuation.squarebracket",
+				"regions.attribute meta.preprocessor punctuation.curlybrace",
+				"regions.attribute meta.preprocessor keyword"
+			],
+			"settings": {
+				"foreground": "#5a5f60"
+			}
+		},
+		{
+			"name": "Preprocessor (entities)",
+			"scope": [
+				"regions.attribute meta.preprocessor entity",
+				"regions.attribute meta.preprocessor entity.name.method",
+				"regions.attribute meta.preprocessor entity.name.function",
+				"regions.attribute meta.preprocessor entity.name.variable",
+				"regions.attribute meta.preprocessor variable",
+				"regions.attribute meta.preprocessor string"
+			],
+			"settings": {
+				"foreground": "#676863"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"regions.attribute variable.other.readwrite",
+				"regions.attribute variable.other.object",
+				"regions.attribute variable.other.alias",
+				"regions.attribute entity.name.variable"
+			],
+			"settings": {
+				"foreground": "#577880"
+			}
+		},
+		{
+			"name": "Variables (local)",
+			"scope": [
+				"regions.attribute keyword.other.this"
+			],
+			"settings": {
+				"foreground": "#496776"
+			}
+		},
+		{
+			"name": "Variables (local)",
+			"scope": [
+				"regions.attribute variable.other.object.property",
+				"regions.attribute entity.name.variable.local",
+				"regions.attribute keyword.other.base"
+			],
+			"settings": {
+				"foreground": "#496776"
+			}
+		},
+		{
+			"name": "Variables (UnityEngine)",
+			"scope": [
+				"regions.attribute support.variable.UnityEngine"
+			],
+			"settings": {
+				"foreground": "#496776"
+			}
+		},
+		{
+			"name": "Variables (UnityEditor)",
+			"scope": [
+				"regions.attribute support.variable.UnityEditor"
+			],
+			"settings": {
+				"foreground": "#496776"
+			}
+		},
+		{
+			"name": "Variables (System)",
+			"scope": [
+				"regions.attribute support.variable.System"
+			],
+			"settings": {
+				"foreground": "#3e5769"
+			}
+		}
+	]
+}

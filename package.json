@@ -1,0 +1,28 @@
+{
+	"name": "Teppz",
+	"displayName": "Teppz",
+	"version": "2.0.0",
+	"description": "Teppz is a version of a carefully designed theme where colors have meanings.",
+	"publisher": "ofrades",
+	"icon": "tennisball.svg",
+	"categories": [
+		"Themes"
+	],
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Teppz Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/default/eppz-code-dark.json"
+			},
+			{
+				"label": "Teppz Light",
+				"uiTheme": "vs",
+				"path": "./themes/default/eppz-code-light.json"
+			}
+		]
+	}
+}
