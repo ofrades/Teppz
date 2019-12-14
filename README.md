@@ -1,10 +1,10 @@
-# Teppz
-
 <p align="center">
   <img width="50" height="50" src="https://github.com/ofrades/teppz/raw/master/tennisball.png">
 </p>
 
-Dark and Light themes for Visual Studio Code.
+<h1 align="center">Teppz</h1>
+
+### Dark and Light themes for Visual Studio Code.
 
 Theme based on eppz! [https://github.com/eppz/VSCode.Extension.eppz_Code](https://github.com/eppz/VSCode.Extension.eppz_Code). This new theme provide a light theme and one color aproach to the IDE.
 
