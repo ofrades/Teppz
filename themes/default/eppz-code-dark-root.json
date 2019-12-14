@@ -72,7 +72,8 @@
 				"comment string"
 			],
 			"settings": {
-				"foreground": "#575b65"
+				"foreground": "#575b65",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -109,7 +110,8 @@
 				"string.quoted.double punctuation"
 			],
 			"settings": {
-				"foreground": "#60c0d2"
+				"foreground": "#60c0d2",
+				"fontStyle": "italic"
 			}
 		},
 		{

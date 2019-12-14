@@ -4,6 +4,8 @@
 	"include": "eppz-code-light-root.json",
 	"colors": {
 		"foreground": "#222",
+		"sideBar.foreground": "#222",
+		"list.activeSelectionBackground": "#222",
 		"widget.shadow": "#ccc",
 		"dropdown.background": "#ccc",
 		"dropdown.border": "#ccc",
