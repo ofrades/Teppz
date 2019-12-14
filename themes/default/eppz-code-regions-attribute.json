@@ -144,24 +144,6 @@
 			}
 		},
 		{
-			"name": "Functions (UnityEngine)",
-			"scope": [
-				"regions.attribute support.function.UnityEngine"
-			],
-			"settings": {
-				"foreground": "#365f75"
-			}
-		},
-		{
-			"name": "Functions (UnityEditor)",
-			"scope": [
-				"regions.attribute support.function.UnityEditor"
-			],
-			"settings": {
-				"foreground": "#365f75"
-			}
-		},
-		{
 			"name": "Functions (System)",
 			"scope": [
 				"regions.attribute support.function.System"
@@ -197,24 +179,6 @@
 			],
 			"settings": {
 				"foreground": "#3a4e64"
-			}
-		},
-		{
-			"name": "Types (UnityEngine)",
-			"scope": [
-				"regions.attribute support.type.unity.UnityEngine"
-			],
-			"settings": {
-				"foreground": "#455970"
-			}
-		},
-		{
-			"name": "Types (UnityEditor)",
-			"scope": [
-				"regions.attribute support.type.unity.UnityEditor"
-			],
-			"settings": {
-				"foreground": "#455970"
 			}
 		},
 		{
@@ -321,24 +285,6 @@
 				"regions.attribute variable.other.object.property",
 				"regions.attribute entity.name.variable.local",
 				"regions.attribute keyword.other.base"
-			],
-			"settings": {
-				"foreground": "#496776"
-			}
-		},
-		{
-			"name": "Variables (UnityEngine)",
-			"scope": [
-				"regions.attribute support.variable.UnityEngine"
-			],
-			"settings": {
-				"foreground": "#496776"
-			}
-		},
-		{
-			"name": "Variables (UnityEditor)",
-			"scope": [
-				"regions.attribute support.variable.UnityEditor"
 			],
 			"settings": {
 				"foreground": "#496776"

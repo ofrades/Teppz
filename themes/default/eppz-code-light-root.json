@@ -150,24 +150,6 @@
 			}
 		},
 		{
-			"name": "Functions (UnityEngine)",
-			"scope": [
-				"support.function.UnityEngine"
-			],
-			"settings": {
-				"foreground": "#295b4c"
-			}
-		},
-		{
-			"name": "Functions (UnityEditor)",
-			"scope": [
-				"support.function.UnityEditor"
-			],
-			"settings": {
-				"foreground": "#295b4c"
-			}
-		},
-		{
 			"name": "Functions (System)",
 			"scope": [
 				"support.function.System"
@@ -205,24 +187,6 @@
 			],
 			"settings": {
 				"foreground": "#3e3030"
-			}
-		},
-		{
-			"name": "Types (UnityEngine)",
-			"scope": [
-				"support.type.unity.UnityEngine"
-			],
-			"settings": {
-				"foreground": "#674540"
-			}
-		},
-		{
-			"name": "Types (UnityEditor)",
-			"scope": [
-				"support.type.unity.UnityEditor"
-			],
-			"settings": {
-				"foreground": "#674540"
 			}
 		},
 		{
@@ -338,24 +302,6 @@
 				"entity.name.variable.local",
 				"keyword.other.base",
 				"variable.language.base"
-			],
-			"settings": {
-				"foreground": "#7d735a"
-			}
-		},
-		{
-			"name": "Variables (UnityEngine)",
-			"scope": [
-				"support.variable.UnityEngine"
-			],
-			"settings": {
-				"foreground": "#7d735a"
-			}
-		},
-		{
-			"name": "Variables (UnityEditor)",
-			"scope": [
-				"support.variable.UnityEditor"
 			],
 			"settings": {
 				"foreground": "#7d735a"
