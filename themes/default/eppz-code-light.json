@@ -3,17 +3,15 @@
 	"type": "light",
 	"include": "eppz-code-light-root.json",
 	"colors": {
-		"editor.background": "#bbb",
-		"tab.activeBackground": "#bbb",
-		"editorGutter.background": "#bbb",
-		"scrollbarSlider.background": "#bbb",
-		"list.inactiveSelectionBackground": "#bbb",
-		"list.activeSelectionBackground": "#bbb",
-		"list.hoverBackground": "#bbb",
-		"pickerGroup.border": "#aaa",
-		"editorGroup.border": "#aaa",
-		"sideBar.foreground": "#222",
-		"activityBar.foreground": "#222",
+		"editor.background": "#ddd",
+		"tab.activeBackground": "#ddd",
+		"editorGutter.background": "#ddd",
+		"scrollbarSlider.background": "#ddd",
+		"list.inactiveSelectionBackground": "#ddd",
+		"list.activeSelectionBackground": "#ddd",
+		"list.hoverBackground": "#ddd",
+		"sideBar.foreground": "#111",
+		"activityBar.foreground": "#111",
 		"widget.shadow": "#ccc",
 		"dropdown.background": "#ccc",
 		"dropdown.border": "#ccc",
@@ -83,5 +81,81 @@
 		"menubar.selectionForeground": "#388E3C",
 		"editor.findMatchBorder": "#388E3C",
 		"selection.background": "#388E3C40"
-	}
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#575B65",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#2Ea28E"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#9A8749"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"punctuation.accessor",
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#8E644F",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "HTML Tag names",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.other.html",
+				"meta.tag.other.js",
+				"meta.tag.other.tsx",
+				"entity.name.tag.tsx",
+				"entity.name.tag.js",
+				"entity.name.tag",
+				"meta.tag.js",
+				"meta.tag.tsx",
+				"meta.tag.html"
+			],
+			"settings": {
+				"foreground": "#5D5050",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "ID Attribute Name in HTML",
+			"scope": "entity.other.attribute-name.id.html",
+			"settings": {
+				"foreground": "#304391"
+			}
+		},
+		{
+			"name": "HTML Punctuation Definition Tag",
+			"scope": "punctuation.definition.tag.html",
+			"settings": {
+				"foreground": "#1E9248"
+			}
+		},
+		{
+			"name": "HTML Doctype",
+			"scope": "meta.tag.sgml.doctype.html",
+			"settings": {
+				"foreground": "#9A7A4E",
+				"fontStyle": "italic"
+			}
+		}
+	]
 }

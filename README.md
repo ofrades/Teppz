@@ -1,4 +1,4 @@
-<p align="center">
+****<p align="center">
   <img width="50" height="50" src="https://github.com/ofrades/teppz/raw/master/tennisball.png">
 </p>
 
@@ -13,11 +13,27 @@ Languages tested thanks to Night Owl theme demos.
 
 <p align="center">Dark Theme with C#</p>
 
-![C# Dark](https://github.com/ofrades/teppz/raw/master/images/dark.png)
+![C# Dark](https://github.com/ofrades/teppz/raw/master/images/csharpdark.png)
 
 <p align="center">Light Theme with C#</p>
 
-![C# Light](https://github.com/ofrades/teppz/raw/master/images/light.png)
+![C# Light](https://github.com/ofrades/teppz/raw/master/images/csharplight.png)
+
+<p align="center">Dark Theme with React</p>
+
+![C# Dark](https://github.com/ofrades/teppz/raw/master/images/reactdark.png)
+
+<p align="center">Light Theme with React</p>
+
+![C# Light](https://github.com/ofrades/teppz/raw/master/images/reactplight.png)
+
+<p align="center">Dark Theme with Sidebar and Terminal open</p>
+
+![C# Dark](https://github.com/ofrades/teppz/raw/master/images/wsideandterminaldark.png)
+
+<p align="center">Light Theme with Sidebar and Terminal open</p>
+
+![C# Light](https://github.com/ofrades/teppz/raw/master/images/wsideandterminallight.png)
 
 
 ### Personal Settings:
@@ -32,7 +48,7 @@ Languages tested thanks to Night Owl theme demos.
     "editor.cursorWidth": 3,
 ````
 
-I am also using [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer), a really cool extension that highlights matching brackets.
+I am also using [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer), a really cool extension that highlights matching brackets and [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme).
 
 ### Future
 If you see something wrong or you want some new feature, please feel free to [file an issue](https://github.com/ofrades/eppz/issues)!

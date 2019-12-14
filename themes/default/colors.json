@@ -10,8 +10,10 @@
 				"Square Bracket": "#72757A",
 				"Curly Brace": "#63676F",
 				"Comment": "#575B65",
-				"Editor": "#1F2025"
-				"Editor2": "#2B2D35"
+				"Editor Dark": "#1F2025",
+				"IDE Dark": "#2B2D35",
+				"Editor Light": "#D5D7E8",
+				"IDE Light": "#B6BDDB"
 			}
 		},
 		{
