@@ -277,11 +277,28 @@
 				"variable.parameter",
 				"variable.object.property",
 				"variable.object.constant",
-				"meta.object-literal.key",
 				"support.variable"
 			],
 			"settings": {
 				"foreground": "#d9c679"
+			}
+		},
+		{
+			"name": "Key",
+			"scope": [
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#85946B"
+			}
+		},
+		{
+			"name": "Entity Other Inherited Class",
+			"scope": [
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#CF7357"
 			}
 		},
 		{

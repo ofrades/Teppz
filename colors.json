@@ -47,6 +47,7 @@
 		{
 			"Adjective": {
 				"Declarations": "#D88E78",
+				"Inherited": "#CF7357",
 				"Types": "#B6776B",
 				"Built-in": "#876660",
 				"Modifier": "#5F5151"
