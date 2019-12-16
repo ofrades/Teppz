@@ -17,6 +17,8 @@
 		"tab.border": "#fff1",
 		"input.border": "#fff1",
 		"activityBar.foreground": "#fff9",
+		"notificationToast.border": "#fff5",
+		"notifications.border": "#fff5",
 		"widget.shadow": "#fff0",
 		"scrollbar.shadow": "#fff0",
 		"sideBarSectionHeader.background": "#fff0",
