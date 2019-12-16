@@ -13,6 +13,7 @@
 		"input.background": "#ddd",
 		"list.hoverBackground": "#ccc",
 		"menu.separatorBackground": "#bbb",
+		"panel.border": "#fff0",
 		"sideBar.border": "#bbb",
 		"sideBarSectionHeader.border": "#bbb",
 		"tab.border": "#bbb",
