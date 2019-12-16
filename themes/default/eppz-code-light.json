@@ -13,7 +13,7 @@
 		"sideBar.border": "#bbb",
 		"sideBarSectionHeader.border": "#bbb",
 		"tab.border": "#bbb",
-		"input.background": "#fff5",
+		"input.background": "#bbb",
 		"dropdown.background": "#fff5",
 		"sideBar.foreground": "#111",
 		"activityBar.foreground": "#111",

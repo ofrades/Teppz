@@ -1,2 +1,4 @@
-.*vsix
+
+*.vsix
+*.code-workspace
 
