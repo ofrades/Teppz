@@ -25,7 +25,7 @@
 		"widget.shadow": "#fff0",
 		"scrollbar.shadow": "#fff0",
 		"sideBarSectionHeader.background": "#fff0",
-		"scrollbarSlider.background": "#ccc",
+		"scrollbarSlider.background": "#bbb",
 		"menu.background": "#ccc",
 		"editor.lineHighlightBackground": "#ccc",
 		"settings.dropdownBackground": "#ccc",
