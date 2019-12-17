@@ -16,6 +16,8 @@
 		"scrollbarSlider.background": "#fff4",
 		"notificationToast.border": "#1F2025",
 		"notifications.border": "#1F2025",
+				"editorIndentGuide.activeBackground": "#fff2",
+				"editorIndentGuide.background": "#ffffff05",
 		"menu.separatorBackground": "#fff1",
 		"list.hoverBackground": "#fff1",
 		"sideBar.border": "#fff1",
