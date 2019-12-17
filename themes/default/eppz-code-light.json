@@ -11,7 +11,7 @@
 		"list.focusBackground": "#ddd",
 		"menu.selectionBackground": "#ddd",
 		"input.background": "#ddd",
-		"list.hoverBackground": "#ccc",
+		"list.hoverBackground": "#fff5",
 		"menu.separatorBackground": "#bbb",
 		"panel.border": "#fff0",
 		"sideBar.border": "#bbb",
