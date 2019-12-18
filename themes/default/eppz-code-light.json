@@ -24,7 +24,7 @@
     "dropdown.background": "#fff5",
     "notificationToast.border": "#bbb",
     "notifications.border": "#bbb",
-    "activityBar.foreground": "#555",
+    // "activityBar.foreground": "#555",
     "widget.shadow": "#fff0",
     "scrollbar.shadow": "#fff0",
     "sideBarSectionHeader.background": "#fff0",
@@ -73,7 +73,9 @@
     "breadcrumb.activeSelectionForeground": "#388E3C",
     "menu.selectionForeground": "#388E3C",
     "menubar.selectionForeground": "#388E3C",
-    "selection.background": "#388E3C40"
+    "selection.background": "#388E3C40",
+    "activityBar.foreground": "#388E3C",
+    "activityBar.inactiveForeground": "#888"
   },
   "tokenColors": [
     {

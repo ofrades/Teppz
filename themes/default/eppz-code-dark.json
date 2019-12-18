@@ -24,7 +24,7 @@
 		"sideBarSectionHeader.border": "#fff1",
 		"tab.border": "#fff1",
 		"input.border": "#fff1",
-		"activityBar.foreground": "#fff9",
+		// "activityBar.foreground": "#fff9",
 		"widget.shadow": "#fff0",
 		"scrollbar.shadow": "#fff0",
 		"sideBarSectionHeader.background": "#fff0",
@@ -74,7 +74,9 @@
 		"breadcrumb.activeSelectionForeground": "#388E3C",
 		"menu.selectionForeground": "#388E3C",
 		"menubar.selectionForeground": "#388E3C",
-		"selection.background": "#388E3C40"
+		"selection.background": "#388E3C40",
+				"activityBar.foreground": "#388E3C",
+				"activityBar.inactiveForeground": "#fff9",
 	},
 	"tokenColors": [
 		{
