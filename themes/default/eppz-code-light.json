@@ -24,7 +24,6 @@
     "dropdown.background": "#fff5",
     "notificationToast.border": "#bbb",
     "notifications.border": "#bbb",
-    // "activityBar.foreground": "#555",
     "widget.shadow": "#fff0",
     "scrollbar.shadow": "#fff0",
     "sideBarSectionHeader.background": "#fff0",
@@ -82,7 +81,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#575B65",
+        "foreground": "#272B35",
         "fontStyle": "italic"
       }
     },
@@ -90,21 +89,21 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#2Ea28E"
+        "foreground": "#3091a2"
       }
     },
     {
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#9A8749"
+        "foreground": "#a99649"
       }
     },
     {
       "name": "Keyword",
       "scope": ["punctuation.accessor", "keyword"],
       "settings": {
-        "foreground": "#8E644F",
+        "foreground": "#9E735F",
         "fontStyle": "italic"
       }
     },

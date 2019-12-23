@@ -1,0 +1,54 @@
+{
+  "Colors for Light": [
+    {
+      "BW": {
+        "Source": "#aDaCa3",
+        "Carete": "#767672",
+        "Operator": "#898985",
+        "Punctuation": "#6C6D6D",
+        "Parenthesis": "#55575B",
+        "Square Bracket": "#42454A",
+        "Curly Brace": "#33373F",
+        "Comment": "#272B35",
+        "Editor": "#ddd",
+        "IDE": "#bbb"
+      }
+    },
+    {
+      "Noun": {
+        "Constant": "#3143a1",
+        "Null": "#38356A",
+        "Numbers": "#306Aa2",
+        "Strings": "#3091a2",
+        "Escape": "#285E6A",
+        "Chars": "#2Fa28E"
+      }
+    },
+    {
+      "Verb": {
+        "Functions": "#1C7555",
+        "Support": "#194C3C",
+        "Unused": "#80984B",
+        "Unused2": "#55643B"
+      }
+    },
+    {
+      "Subject": {
+        "Variables": "#a99649",
+        "Local": "#6D633B",
+        "Preprocessor": "#aB8A4F",
+        "Entities": "#4D402E",
+        "Keywords": "#9E735F",
+        "Other": "#68513F"
+      }
+    },
+    {
+      "Adjective": {
+        "Declarations": "#a85E48",
+        "Types": "#86473B",
+        "Built-in": "#572620",
+        "Modifier": "#2F2121"
+      }
+    }
+  ]
+}

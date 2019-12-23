@@ -52,7 +52,7 @@ Languages tested thanks to [Night Owl](https://github.com/sdras/night-owl-vscode
     "editor.cursorWidth": 3,
 ````
 
-I am also using [Bracket Pair Colorizer](https://github.com/CoenraadS/BracketPair), a really cool extension that highlights matching brackets and [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme).
+I am also using [Bracket Pair Colorizer](https://github.com/CoenraadS/BracketPair), a really cool extension that highlights matching brackets (works best with the dark theme) and [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme).
 
 ### Future
 If you see something wrong or you want some new feature, please feel free to [file an issue](https://github.com/ofrades/Teppz/issues)!

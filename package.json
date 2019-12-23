@@ -1,7 +1,7 @@
 {
   "name": "teppz",
   "displayName": "Teppz",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "Teppz is a version of a carefully designed theme where colors have meanings.",
   "publisher": "ofrades",
   "icon": "tennisball.png",
@@ -15,6 +15,7 @@
     "Light Theme",
     "eppz",
     "C#",
+    "TypeScritp",
     "Nature",
     "Harmony",
     "Minimal"
