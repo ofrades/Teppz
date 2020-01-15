@@ -28,7 +28,6 @@
     "scrollbar.shadow": "#fff0",
     "sideBarSectionHeader.background": "#fff0",
     "statusBar.border": "#bbb",
-    "scrollbarSlider.background": "#e6e2cf",
     "statusBar.background": "#e6e2cf",
     "menu.background": "#e6e2cf",
     "editor.lineHighlightBackground": "#e6e2cf",
@@ -78,6 +77,7 @@
     "activityBar.foreground": "#388E3C",
     "activityBar.inactiveForeground": "#555",
     "foreground": "#555",
+    "scrollbarSlider.background": "#555",
     "editor.foreground": "#555",
     "statusBar.foreground": "#555"
   },

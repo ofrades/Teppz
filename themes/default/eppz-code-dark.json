@@ -79,7 +79,7 @@
 		"activityBar.inactiveForeground": "#CEA37F",
 		"foreground": "#ebdbb2",
 		"editor.foreground": "#ebdbb2",
-		"scrollbarSlider.background": "#181818",
+		"scrollbarSlider.background": "#ebdbb2",
 		"statusBar.foreground": "#ebdbb2"
 	},
 	"tokenColors": [
