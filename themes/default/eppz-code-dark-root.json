@@ -13,7 +13,8 @@
       "name": "Keyword (operator)",
       "scope": ["keyword.operator"],
       "settings": {
-        "foreground": "#b9b9b5"
+        "foreground": "#b9b9b5",
+        "fontStyle": "normal"
       }
     },
     {

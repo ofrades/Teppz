@@ -106,7 +106,7 @@
     },
     {
       "name": "Keyword",
-      "scope": ["punctuation.accessor", "keyword"],
+      "scope": "keyword",
       "settings": {
         "foreground": "#9E735F",
         "fontStyle": "italic"
