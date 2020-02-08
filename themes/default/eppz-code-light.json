@@ -75,6 +75,7 @@
     "menubar.selectionForeground": "#388E3C",
     "selection.background": "#388E3C40",
     "activityBar.foreground": "#388E3C",
+    "list.focusForeground": "#388E3C",
     "activityBar.inactiveForeground": "#555",
     "foreground": "#555",
     "scrollbarSlider.background": "#5555",

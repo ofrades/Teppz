@@ -77,6 +77,7 @@
 		"menubar.selectionForeground": "#388E3C",
 		"selection.background": "#388E3C40",
 		"activityBar.foreground": "#388E3C",
+		"list.focusForeground": "#388E3C",
 		"activityBar.inactiveForeground": "#CEA37F",
 		"foreground": "#ebdbb2",
 		"editor.foreground": "#ebdbb2",

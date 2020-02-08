@@ -217,6 +217,7 @@
 				"regions.using keyword.query"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#535985"
 			}
 		},

@@ -219,6 +219,7 @@
 				"regions.namespace.declaration keyword.query"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#909f98"
 			}
 		},

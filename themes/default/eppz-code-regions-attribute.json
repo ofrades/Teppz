@@ -217,6 +217,7 @@
 				"regions.attribute keyword.query"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#546e81"
 			}
 		},

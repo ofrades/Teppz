@@ -191,9 +191,24 @@
         "keyword.query"
       ],
       "settings": {
+        "fontStyle": "normal",
         "foreground": "#ae845f"
       }
     },
+        {
+          "name": "Keyword Operator Razor",
+          "scope": [
+            "keyword.control.razor.directive.page",
+            "keyword.control.razor.directive.codeblock.open",
+            "keyword.control.razor.directive.codeblock.close",
+            "keyword.control.razor.directive.model"
+
+          ],
+          "settings": {
+            "fontStyle": "normal",
+            "foreground": "#9E735F"
+          }
+        },
     {
       "name": "Keywords (other)",
       "scope": ["keyword.other"],
@@ -323,6 +338,7 @@
     {
       "scope": ["keyword.operator.or.regexp", "keyword.control.anchor.regexp"],
       "settings": {
+        "fontStyle": "normal",
         "foreground": "#ff0000"
       }
     },
