@@ -69,6 +69,18 @@
 			"settings": {
 				"foreground": "#876560"
 			}
+		},
+		{
+			"scope": "keyword.control.cshtml.transition",
+			"settings": {
+				"foreground": "#4CA585"
+			}
+		},
+		{
+			"scope": "invalid.illegal.character-not-allowed-here.html",
+			"settings": {
+				"foreground": "#CF7357"
+			}
 		}
 	]
 }
