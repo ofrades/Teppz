@@ -185,11 +185,7 @@
     },
     {
       "name": "Keywords",
-      "scope": [
-        "keyword.control",
-        "keyword.operator.conditional",
-        "keyword.query"
-      ],
+      "scope": ["keyword.operator.conditional", "keyword.query"],
       "settings": {
         "fontStyle": "normal",
         "foreground": "#ae845f"
