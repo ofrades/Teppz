@@ -216,15 +216,7 @@
       "scope": [
         "keyword.control.cshtml.transition",
         "keyword.control.razor.directive.codeblock.open",
-        "keyword.control.razor.directive.codeblock.close"
-      ],
-      "settings": {
-        "fontStyle": "normal",
-        "foreground": "#a996f0"
-      }
-    },
-    {
-      "scope": [
+        "keyword.control.razor.directive.codeblock.close",
         "keyword.control.razor.directive.code",
         "keyword.control.razor.directive.attribute"
       ],
@@ -241,10 +233,10 @@
       }
     },
     {
-      "scope": ["meta.structure.template.razor"],
+      "scope": ["keyword.control"],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#ff0000"
+        "foreground": "#b59070"
       }
     }
   ]
