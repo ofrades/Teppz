@@ -1,86 +1,65 @@
 {
-	"name": "eppz! Code (json)",
-	"settings": [
-		{
-			"name": "Json (array punctuation)",
-			"scope": [
-				"punctuation.definition.array.begin",
-				"punctuation.definition.array.end",
-				"punctuation.separator.array"
-			],
-			"settings": {
-				"foreground": "#8ba9ac"
-			}
-		},
-		{
-			"name": "Json (dictionary punctuation)",
-			"scope": [
-				"punctuation.definition.dictionary.begin",
-				"punctuation.definition.dictionary.end",
-				"punctuation.separator.dictionary"
-			],
-			"settings": {
-				"foreground": "#6a6656"
-			}
-		},
-		{
-			"name": "Json (property)",
-			"scope": [
-				"support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#b6776b",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Json (property punctuation)",
-			"scope": [
-				"support.type.property-name punctuation"
-			],
-			"settings": {
-				"foreground": "#6a6656"
-			}
-		},
-		{
-			"name": "Json (string)",
-			"scope": [
-				"string - support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#60c0d2"
-			}
-		},
-		{
-			"name": "Json (string punctuation)",
-			"scope": [
-				"punctuation.definition.string.begin.json",
-				"punctuation.definition.string.end.json"
-			],
-			"settings": {
-				"foreground": "#4a6269"
-			}
-		},
-		{
-			"name": "Json (illegal)",
-			"scope": [
-				"invalid.illegal"
-			],
-			"settings": {
-				"foreground": "#876560"
-			}
-		},
-		{
-			"scope": "keyword.control.cshtml.transition",
-			"settings": {
-				"foreground": "#4CA585"
-			}
-		},
-		{
-			"scope": "invalid.illegal.character-not-allowed-here.html",
-			"settings": {
-				"foreground": "#CF7357"
-			}
-		}
-	]
+  "name": "eppz! Code (json)",
+  "settings": [
+    {
+      "name": "Json (array punctuation)",
+      "scope": [
+        "punctuation.definition.array.begin",
+        "punctuation.definition.array.end",
+        "punctuation.separator.array"
+      ],
+      "settings": {
+        "foreground": "#8ba9ac"
+      }
+    },
+    {
+      "name": "Json (dictionary punctuation)",
+      "scope": [
+        "punctuation.definition.dictionary.begin",
+        "punctuation.definition.dictionary.end",
+        "punctuation.separator.dictionary"
+      ],
+      "settings": {
+        "foreground": "#6a6656"
+      }
+    },
+    {
+      "name": "Json (property)",
+      "scope": ["support.type.property-name"],
+      "settings": {
+        "foreground": "#b6776b",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Json (property punctuation)",
+      "scope": ["support.type.property-name punctuation"],
+      "settings": {
+        "foreground": "#6a6656"
+      }
+    },
+    {
+      "name": "Json (string)",
+      "scope": ["string - support.type.property-name"],
+      "settings": {
+        "foreground": "#60c0d2"
+      }
+    },
+    {
+      "name": "Json (string punctuation)",
+      "scope": [
+        "punctuation.definition.string.begin.json",
+        "punctuation.definition.string.end.json"
+      ],
+      "settings": {
+        "foreground": "#4a6269"
+      }
+    },
+    {
+      "scope": "invalid.illegal.character-not-allowed-here.html",
+      "settings": {
+        "foreground": "#CF7357"
+      }
+    }
+  ]
 }

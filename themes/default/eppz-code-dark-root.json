@@ -140,8 +140,8 @@
         "entity.name.type.type-parameter",
         "support.type",
         "support.class",
-		"entity.name.class",
-		"variable.other.object.ts"
+        "entity.name.class",
+        "variable.other.object.ts"
       ],
       "settings": {
         "foreground": "#b6776b"
@@ -186,26 +186,13 @@
     {
       "name": "Keywords",
       "scope": [
-        "keyword.control",
+        //"keyword.control",
         "keyword.operator.conditional",
         "keyword.query"
       ],
       "settings": {
         "fontStyle": "normal",
         "foreground": "#cea47f"
-      }
-    },
-    {
-      "name": "Keyword Operator Razor",
-      "scope": [
-            "keyword.control.razor.directive.page",
-            "keyword.control.razor.directive.codeblock.open",
-            "keyword.control.razor.directive.codeblock.close",
-            "keyword.control.razor.directive.model"
-      ],
-      "settings": {
-        "fontStyle": "normal",
-        "foreground": "#CEA37F"
       }
     },
     {

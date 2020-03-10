@@ -160,8 +160,8 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#9e5c49",
-        "fontStyle": ""
+        "foreground": "#5F5151",
+        "fontStyle": "normal"
       }
     },
     {
@@ -191,6 +191,60 @@
       "settings": {
         "foreground": "#9A7A4E",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Razor",
+      "scope": [
+        "keyword.control.razor.directive.page",
+        "keyword.control.razor.directive.model",
+        "keyword.control.razor.directive.inject",
+        "keyword.control.razor.directive.using",
+        "keyword.control.razor.directive.inherits",
+        "keyword.control.razor.directive.implements",
+        "keyword.control.razor.directive.layout",
+        "keyword.control.razor.directive.namespace",
+        "keyword.control.razor.directive.section",
+        "keyword.control.razor.directive.model"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#6f55ad"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.cshtml.transition",
+        "keyword.control.razor.directive.codeblock.open",
+        "keyword.control.razor.directive.codeblock.close"
+      ],
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#a996f0"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.razor.directive.code",
+        "keyword.control.razor.directive.attribute"
+      ],
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#643c9e"
+      }
+    },
+    {
+      "scope": ["text.aspnetcorerazor"],
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#343026"
+      }
+    },
+    {
+      "scope": ["meta.structure.template.razor"],
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#ff0000"
       }
     }
   ]
