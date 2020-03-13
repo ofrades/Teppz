@@ -50,6 +50,12 @@
         "Built-in": "#876660",
         "Modifier": "#5F5151"
       }
+    },
+    {
+      "Blazor": "#765ffe",
+      "Blazor Other": "#7059E0",
+      ".NET": "#d052f1",
+      "Blazor Text": "#cdb2eb"
     }
   ]
 }

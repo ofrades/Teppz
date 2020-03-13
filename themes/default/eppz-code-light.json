@@ -194,36 +194,103 @@
       }
     },
     {
-      "name": "Razor",
+      "name": ".NET",
       "scope": [
         "keyword.control.razor.directive.page",
-        "keyword.control.razor.directive.model",
+        "meta.directive.page",
         "keyword.control.razor.directive.inject",
-        "meta.directive.inject.cshtml",
+        "meta.directive.inject",
         "keyword.control.razor.directive.using",
+        "meta.directive.using.cshtml",
         "keyword.control.razor.directive.inherits",
+        "meta.directive.inherits.cshtml",
         "keyword.control.razor.directive.implements",
+        "meta.directive.implements.razor",
         "keyword.control.razor.directive.layout",
+        "meta.directive.layout.razor",
         "keyword.control.razor.directive.namespace",
+        "meta.directive.namespace",
         "keyword.control.razor.directive.section",
-        "keyword.control.razor.directive.model"
+        "meta.directive.section",
+        "keyword.control.razor.directive.model",
+        "meta.directive.model.cshtml",
+        "keyword.control.razor.directive.attribute",
+        "meta.directive.attribute.razor"
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#644d9c"
+        "foreground": "#68257a"
       }
     },
     {
+      "name": "Blazor",
       "scope": [
         "keyword.control.cshtml.transition",
+        "meta.expression.explicit.cshtml",
+        "meta.directive.addTagHelper.razor",
+        "meta.directive.removeTagHelper.razor",
+        "meta.directive.tagHelperPrefix.razor",
+        "meta.expression.implicit.cshtml",
         "keyword.control.razor.directive.codeblock.open",
         "keyword.control.razor.directive.codeblock.close",
         "keyword.control.razor.directive.code",
-        "keyword.control.razor.directive.attribute"
+        "keyword.control.razor.directive.functions",
+        "meta.structure.razor.directive.markblock",
+        "meta.statement.using.razor",
+        "meta.statement.if.razor",
+        "meta.statement.else.razor",
+        "meta.statement.for.razor",
+        "meta.statement.foreach.razor",
+        "meta.statement.do.razor",
+        "meta.statement.while.razor",
+        "meta.statement.switch.razor",
+        "meta.structure.razor.csharp.codeblock.switch",
+        "meta.statement.lock.razor",
+        "meta.structure.template.razor",
+        "constant.character.escape.razor.transition",
+        "meta.structure.razor.codeblock",
+        "keyword.control.razor.singleLineMarkup",
+        "keyword.control.cshtml.transition.textTag.open",
+        "keyword.control.cshtml.transition.textTag.close"
       ],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#643c9e"
+        "foreground": "#533dd4"
+      }
+    },
+    {
+      "name": "Blazor Other",
+      "scope": [
+        "meta.statement.if.razor",
+        "meta.statement.foreach.razor",
+        "meta.statement.else.razor",
+        "meta.directive.attribute.razor",
+        "meta.statement.try.razor",
+        "meta.statement.catch.razor",
+        "meta.statement.finally.razor"
+      ],
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#6D58AE"
+      }
+    },
+    {
+      "name": "Blazor Text",
+      "scope": [
+        "meta.structure.razor.csharp.codeblock",
+        "meta.structure.razor.directive.codeblock"
+      ],
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#324"
+      }
+    },
+    {
+      "name": "Blazor Comment",
+      "scope": ["meta.comment.razor", "keyword.control.razor.comment.star"],
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#272B35"
       }
     },
     {
