@@ -199,6 +199,7 @@
         "keyword.control.razor.directive.page",
         "keyword.control.razor.directive.model",
         "keyword.control.razor.directive.inject",
+        "meta.directive.inject.cshtml",
         "keyword.control.razor.directive.using",
         "keyword.control.razor.directive.inherits",
         "keyword.control.razor.directive.implements",
@@ -209,7 +210,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#6f55ad"
+        "foreground": "#644d9c"
       }
     },
     {
