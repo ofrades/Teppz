@@ -4,44 +4,55 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NightOwl.demo {
-    public class CSharp {
-        private readonly string _testField;
+namespace NightOwl.demo
+{
+	public class CSharp
+	{
+		private readonly string _testField;
 
-        public string TestProperty { get; set; }
+		public CSharp(string testProperty)
+		{
+			this.TestProperty = testProperty;
 
-        #region RegionTest
-        public string Getter => TestProperty;
+		}
+		public string TestProperty { get; set; }
 
-        public CSharp(string testField) {
-            _testField = testField;
-            string text = $"{TestProperty} this is a text string";
-            int number = 1;
-        }
+		#region RegionTest
+		public string Getter => TestProperty;
 
-        #endregion
+		public CSharp(string testField)
+		{
+			_testField = testField;
+			string text = $"{TestProperty} this is a text string";
+			int number = 1;
+		}
 
-        /// <summary>
-        /// Hello this is an xml comment
-        /// </summary>
-        /// <param name="testParam">param comment</param>
-        /// <returns></returns>
-        public async Task<string> TestMethod(string testParam) {
-            for (var i = 0; i <= 5; i++) {
-                testParam.Trim();
-                _testField?.Trim();
+		#endregion
 
-                var enumVal = (int) TestEnum.TestValue;
+		/// <summary>
+		/// Hello this is an xml comment
+		/// </summary>
+		/// <param name="testParam">param comment</param>
+		/// <returns></returns>
+		public async Task<string> TestMethod(string testParam)
+		{
+			for (var i = 0; i <= 5; i++)
+			{
+				testParam.Trim();
+				_testField?.Trim();
 
-                // Hello this is a normal comment
-                new List<string>().Where(c => c == "Test");
-            }
+				var enumVal = (int)TestEnum.TestValue;
 
-            return await Task.FromResult(testParam);
-        }
-    }
+				// Hello this is a normal comment
+				new List<string>().Where(c => c == "Test");
+			}
 
-    public enum TestEnum {
-        TestValue
-    }
+			return await Task.FromResult(testParam);
+		}
+	}
+
+	public enum TestEnum
+	{
+		TestValue
+	}
 }

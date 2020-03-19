@@ -15,10 +15,12 @@
     {
       "name": "Json (dictionary punctuation)",
       "scope": [
-        "punctuation.definition.dictionary.begin",
-        "punctuation.definition.dictionary.end",
-        "punctuation.separator.dictionary"
-      ],
+                 "punctuation.definition.dictionary.begin",
+                 "punctuation.definition.dictionary.end",
+                 "punctuation.separator.dictionary",
+                 "meta.structure.dictionary.json",
+                 "meta.structure.dictionary.value.json"
+               ],
       "settings": {
         "foreground": "#6a6656"
       }
