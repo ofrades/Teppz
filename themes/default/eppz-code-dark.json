@@ -110,7 +110,7 @@
     "menubar.selectionForeground": "#4CA585",
     "list.focusForeground": "#4CA585",
     "list.hoverForeground": "#c1c1c1",
-    "list.inactiveSelectionForeground": "#876660",
+    "list.inactiveSelectionForeground": "#4CA585",
     "list.focusBackground": "#20223b",
     "list.hoverBackground": "#20223b",
     "list.inactiveSelectionBackground": "#20223b",
