@@ -7,7 +7,7 @@
 <h4 align="center"> Dark and Light themes for Visual Studio Code</h4>
 
 
-![Dark](https://github.com/ofrades/teppz/raw/master/images/razor.jpg)
+![Dark](https://github.com/ofrades/teppz/raw/master/images/dark.jpg)
 ![Light](https://github.com/ofrades/teppz/raw/master/images/light.jpg)
 
 **Teppz** is based on the awesome [eppz!](https://github.com/eppz/VSCode.Extension.eppz_Code). For that reason **Teppz** is a new version of a carefully designed theme where colors do have meanings.
